@@ -1,0 +1,41 @@
+/* menu at the top */
+#div_config { display: flex; flex-direction: row; margin-bottom: 10px; }
+#div_config > fieldset { flex-basis: 50%; }
+
+.div_menu { display: flex; flex-direction: row; border-bottom: 1px solid #DDDDDD; box-shadow: 0px 6px 5px 0px rgba(122,122,122,1); position: absolute; left: 0px; top: 0px; right: 0px; margin-bottom: 20px; }
+.div_menu_item { flex-basis: 50%; text-align: center; padding: 10px;}
+.div_menu_item:hover { background-color: #a8cfee; }
+
+.plan { margin-top: 50px; }
+.plan > table { margin-left: auto; margin-right: auto; }
+fieldset { border-radius: 5px; border: 1px solid #b1c8e1; }
+legend { border-radius: 5px; background-color: #b1c8e1; padding: 5px; }
+
+/* hover menu */
+.hover_menu { position: absolute; min-width: 10px; min-height: 10px; border: 0.5px solid #DDDDDD; background-color: white; z-index: 50; border-radius: 5px; padding: 3px; opacity: 0.95; }
+
+/* hover add constraint */
+.divHoverConstraint { display: none; position: absolute; top: 50px; left: 50%; margin-left: -150px; border-radius: 5px; background-color: #99dd99; border: 2px solid #78c67c; font-size: 20px; font-family: Arial; padding: 30px; }
+.inputHours { width: 50px; }
+
+/* schedule */
+td, th, table { border: 1px solid #DDDDDD; }
+th { text-align: left; font-weight: normal; }
+
+.error_image { width: 50px; }
+
+.td_shift_early, .td_shift_late, .td_shift_no_shift, .td_shift_early_r, .td_shift_late_r, .td_shift_no_shift_r { min-width: 100px; min-height: 20px; padding: 5px; text-align: center; font-size: 12px; }
+
+.td_shift_early, .td_shift_late, .td_shift_no_shift { border: 2px solid #FFFFFF; }
+
+.td_shift_early_r, .td_shift_late_r, .td_shift_no_shift_r { border: 2px solid #00ca13; }
+
+.td_shift_early, .td_shift_early_r { background-image: url("../img/earlyShift.png"); background-size: contain; }
+
+.td_shift_late, .td_shift_late_r { background-image: url("../img/lateShift.png"); background-size: contain; }
+
+.td_shift_early:hover, .td_shift_late:hover, .td_shift_no_shift:hover, .td_shift_early_r:hover, .td_shift_late_r:hover, .td_shift_no_shift_r:hover { cursor: pointer; cursor: hand; border: 2px solid #ff9b00; }
+
+/* manual constraints */
+.div_manual_constraints { display: flex; flex-direction: row; flex-wrap: wrap; }
+.manual_constraint { background-color: #cde6ff; border-radius: 3px; padding: 3px; margin: 5px; border: 1px solid #b1c8e1; }

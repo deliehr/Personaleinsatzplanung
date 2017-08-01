@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<DefaultValues>
+    <Employees>
+        <Employee>
+            <Type>StoreAdministration</Type>
+            <MaxHoursWeekly>40</MaxHoursWeekly>
+            <MaxHoursMonthly>160</MaxHoursMonthly>
+        </Employee>
+
+        <Employee>
+            <Type>FirstSubstitution</Type>
+            <MaxHoursWeekly>30</MaxHoursWeekly>
+            <MaxHoursMonthly>120</MaxHoursMonthly>
+        </Employee>
+
+        <Employee>
+            <Type>SecondSubstitution</Type>
+            <MaxHoursWeekly>20</MaxHoursWeekly>
+            <MaxHoursMonthly>80</MaxHoursMonthly>
+        </Employee>
+
+        <Employee>
+            <Type>Trainee1Y</Type>
+            <MaxHoursWeekly>20</MaxHoursWeekly>
+            <MaxHoursMonthly>80</MaxHoursMonthly>
+        </Employee>
+
+        <Employee>
+            <Type>Trainee2Y</Type>
+            <MaxHoursWeekly>20</MaxHoursWeekly>
+            <MaxHoursMonthly>80</MaxHoursMonthly>
+        </Employee>
+
+        <Employee>
+            <Type>Trainee3Y</Type>
+            <MaxHoursWeekly>20</MaxHoursWeekly>
+            <MaxHoursMonthly>80</MaxHoursMonthly>
+        </Employee>
+
+        <Employee>
+            <Type>SaleAndCash</Type>
+            <MaxHoursWeekly>18</MaxHoursWeekly>
+            <MaxHoursMonthly>80</MaxHoursMonthly>
+        </Employee>
+
+        <Employee>
+            <Type>MarginalEmployee</Type>
+            <MaxHoursWeekly>12</MaxHoursWeekly>
+            <MaxHoursMonthly>48</MaxHoursMonthly>
+        </Employee>
+    </Employees>
+</DefaultValues>

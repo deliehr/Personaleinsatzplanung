@@ -1,7 +1,10 @@
 # Personaleinsatzplanung
 
 JSP-Anwendung zur Zeitplanung von Mitarbeitern einer Filiale.
-Zur Lösung des Zeitproblems wird die lineare Programmierung angewendet. Als Solver wird lp_solve (https://sourceforge.net/projects/lpsolve/) verwendet.
+
+Zur Lösung des Zeitproblems wird die lineare Programmierung angewendet. 
+
+Als Solver wird lp_solve (https://sourceforge.net/projects/lpsolve/) verwendet.
 
 # Screenshots
 

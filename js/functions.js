@@ -40,7 +40,7 @@ function addHoverFunctions() {
         var firstName = $(this).attr("data-firstName"), lastName = $(this).attr("data-lastName"), dayIndex = $(this).attr("data-dayIndex"), dayName = "", dvs = $(this).attr("data-dvs"), option="", optionValue="0.0";
 
         // dayname
-        switch(dayIndex) {
+        switch(parseInt(dayIndex)) {
             default:
             case 0: dayName = "Montag"; break;
             case 1: dayName = "Dienstag"; break;

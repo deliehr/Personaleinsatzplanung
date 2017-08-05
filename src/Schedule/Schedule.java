@@ -266,7 +266,7 @@ public class Schedule {
         }
 
         if(e.getVacationShifts()[day]) {
-            cellContent.append(String.format(" style='background-image: url(\"img/vacation.png\"); background-size: contain; background-repeat: no-repeat; "));
+            cellContent.append(String.format(" style='background-image: url(\"img/vacation.png\"); background-size: contain; background-repeat: no-repeat;' "));
         }
 
         cellContent.append(String.format("data-firstName='%s' ", e.getFirstname()));
